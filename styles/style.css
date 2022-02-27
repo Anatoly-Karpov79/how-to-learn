@@ -98,8 +98,8 @@ a {
 .two-columns__main-text {
 display: flex;
 flex-direction: column;
-width: 80%; 
-min-width: 784px
+width: 80%;
+min-width: 784px;
 
 }
 .two-columns__paragraf {
@@ -224,11 +224,9 @@ h5 {
   padding-top: 70px;
   line-height: 51px;
   margin: 0 auto 0 auto;
-  font-size: 36px; 
+  font-size: 36px;
   font-weight: normal;
 }
-
-
 .feynman__link {
   display: flex;
   position: absolute;
@@ -263,9 +261,6 @@ h5 {
 }
 .section-subtitle_theme_dark {
   color: white;
-}
-.table_theme_dark {
-
 }
 .kaufman__triangle {
   display: flex;
@@ -338,7 +333,7 @@ h5 {
   display: flex;
   flex-direction: column;
   padding-top: 20px;
-  padding-bottom: 16px
+  padding-bottom: 16px;
 }
 .footer__social-icon {
   display: flex;
