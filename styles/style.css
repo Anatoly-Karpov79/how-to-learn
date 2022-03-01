@@ -16,7 +16,6 @@
   display: flex;
   position: relative;
   background-color: #f2f2f2;
-  display: flex;
   align-items: center;
  }
 .header__main-illustration {
@@ -169,7 +168,7 @@
 .feynman__title {
   display: flex;
   max-width: 648px;
-  margin: 100px auto 0 auto; 
+  margin: 100px auto 0 auto;
   font-size: 120px;
   line-height: 1.15;
   font-weight: bold;
@@ -233,7 +232,7 @@
   display: flex;
   padding-top: 60px;
   padding-bottom: 40px;
-  background-color: #1f1f1f;;
+  background-color: #1f1f1f;
   color: white;
   min-height: 350px;
   flex-direction: row;
