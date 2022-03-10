@@ -1,5 +1,15 @@
-@import url(../blocks/rotation/rotation.css);
+
+
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__subtitle/header__subtitle.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/rotation/rotation.css);
+@import url(../blocks/header/__main-illustration/header__main-illustration.css);
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/__place/logo__place_header.css);
+@import url(../blocks/description/description.css);
+
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -11,53 +21,11 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-.header__main-illustration {
-  width: 765px;
-  height: 608px;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  z-index: 1;
-  object-fit:fill;
- }
-.header__subtitle { 
-  max-width: 388px;
-  position: absolute;
-  left: 64px;
-  bottom: 30px;
-  z-index: 2;
-  line-height: 25px;
-  font-size: 18px;
-}
-.header__link {
-  color: #2f80ed;
-  text-decoration: none;
-}
-.header__title {
-  max-width: 730px;
-  z-index: 2;
-  margin: 0;
-  margin-left: 64px;
-  
-  font-size: 102px;
-  line-height: 96px;
-}
-.header__logo {
-  width: 183px;
-  height: 32px;
-}
-.logo_place_header {
-  position: absolute;
-  top: 30px;
-  left: 64px;
-}
 
 
-.description {
-  display: flex;
-  justify-content: center;
-  margin-top: 100px;
-}
+
+
+
 .two-columns{
   display: flex;
   flex-direction: row;
