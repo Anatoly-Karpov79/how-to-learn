@@ -4,5 +4,8 @@
     font-size: 30px;
     text-decoration: none;
     color: #2f80ed;
-    
+}
+.khan__buy-link:hover {
+  opacity: .3;
+  transition: opacity 1s ease-in;
 }
